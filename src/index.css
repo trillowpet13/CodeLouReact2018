@@ -1,0 +1,29 @@
+.title {
+  font-size: 50px;
+}
+body {
+  margin: 50;
+  padding: 0;
+  background-color: beige;
+}
+
+.App {
+  max-width: 600px;
+  margin: auto;
+  padding: 10px;
+  text-align: center;
+  font-family: arial;
+  border-color: black;
+  background-color: white;
+}
+
+p {
+  font-size: 30px;
+}
+
+@media screen and (max-width: 600px) {
+  .App  {
+      float: none;
+      width: 100%;
+  }
+}
